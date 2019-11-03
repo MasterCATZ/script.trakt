@@ -8,9 +8,9 @@ from json import loads, dumps
 from time import sleep
 
 try:
-    from thread import get_ident
+    from _thread import get_ident
 except ImportError:
-    from dummy_thread import get_ident
+    from _dummy_thread import get_ident
 
 import xbmc
 import xbmcvfs
