@@ -353,4 +353,3 @@ def run():
     if 'action' in data:
         logger.debug("Queuing for dispatch: %s" % data)
         q.append(data)
-
